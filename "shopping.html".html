@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--casey-->
+    <meta charset="UTF-8">
+    <title>Shopping Calculator</title>
+</head>
+<body>
+
+    <form method="get"
+          id="shoppingForm">
+
+        <feildset>
+
+           <table border="1">
+
+
+               <tr>
+
+                   <td>
+
+                       <lable for="quantity">Quantity</lable>
+
+                   </td>
+
+                   <td>
+
+                       <input type="number"
+                              name="quantity"
+                              id="qouantity"
+                              value="1"
+                              min="1" required>
+
+                   </td>
+
+               </tr>
+
+               <tr>
+
+                   <td>
+
+                       <lable for="Price Per Unit">Price Per Unit</lable>
+
+                   </td>
+
+                   <td>
+
+                       <input type="text"
+                              name="price"
+                              id="price"
+                              value="1.00" required>
+
+                   </td>
+
+               </tr>
+
+               <tr>
+
+                   <td>
+
+                       <lable for="Tax Rate (%)">Tax Rate (%)</lable>
+
+                   </td>
+
+                   <td>
+
+                       <input type="text"
+                              name="tax"
+                              id="tax"
+                              value="1.00" required>
+
+                   </td>
+
+               </tr>
+
+               <tr>
+
+                   <td>
+
+                       <lable for="Discount">Discount</lable>
+
+                   </td>
+
+                   <td>
+
+                       <input type="text"
+                              name="discount"
+                              id="discount"
+                              value="0.00" required>
+
+                   </td>
+
+               </tr>
+
+               <tr>
+
+                   <td>
+
+                       <lable for="Total">Total</lable>
+
+                   </td>
+
+                   <td>
+
+                       <input type="text"
+                              name="total"
+                              id="total"
+                              value="0.00" readonly>
+
+                   </td>
+
+               </tr>
+
+               <tr>
+
+
+                   <td colspan="2" align="right">
+
+                       <input type="submit"
+                              id="submit"
+                              value="Calculate">
+
+                   </td>
+
+               </tr>
+
+
+
+           </table>
+
+        </feildset>
+
+    </form>
+
+
+
+</body>
+</html>
